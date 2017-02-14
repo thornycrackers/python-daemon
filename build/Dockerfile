@@ -7,11 +7,11 @@ ENV TERM xterm-256color
 # Update and install
 RUN apt-get update && apt-get install -y \
       htop \
-      python-dev \
-      python-pip
+      python3-dev \
+      python3-pip
 
-# Add the project requirements
-ADD requirements.txt /opt/requirements.txt
+# # Add the project requirements
+# ADD requirements.txt /opt/requirements.txt
 
 # The code should be symlinked to this directory
 WORKDIR /app

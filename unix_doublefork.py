@@ -27,11 +27,3 @@ else:
     else:
         print_process_info('Child')
         sys.exit()
-
-# # POP QUIZ!!!! Why won't this work
-# print_process_info('Parent')
-# os.setsid()
-# print_process_info('Parent')
-# newpid = os.fork()
-# if newpid == 0:
-#     print_process_info('Child')
