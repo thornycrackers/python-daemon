@@ -1,3 +1,6 @@
+[Slides](https://docs.google.com/presentation/d/12kZX6yD-gvxpRbJK5h-FwxhUhAP4lsLJESi7qg5sEwg/edit?usp=sharing)
+
+
 # What is a daemon?
 - A computer program that runs as a background process, rather than being under the direct control of an interactive user.
 - Generally end with a 'd' (e.g. 'sshd', 'syslogd')
